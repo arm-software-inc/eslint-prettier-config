@@ -1,6 +1,6 @@
 {
   "name": "eslint-prettier-husky",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eslint, prettier and husky config for MyOs",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.18.0",
