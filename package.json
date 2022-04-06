@@ -17,13 +17,14 @@
     "prettier",
     "husky"
   ],
-	"dependencies": {
+  "dependencies": {
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.2"
   },
   "peerDependencies": {
-    "eslint": ">= 8",
-		"@typescript-eslint/eslint-plugin": "^5.18.0",
-		"eslint-plugin-prettier": "^4.0.0"
+		"eslint": ">= 8",
+    "@typescript-eslint/eslint-plugin": ">= 5.18",
+    "eslint-plugin-prettier": ">= 4",
+		"eslint-plugin-html": ">= 4"
   }
 }

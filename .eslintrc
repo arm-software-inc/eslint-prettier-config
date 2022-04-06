@@ -1,15 +1,22 @@
 {
+	"root": true,
+	"env": {
+		"es6": true,
+		"node": true,
+		"browser": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
 	"plugins": [
-    "prettier",
 		"@typescript-eslint"
   ],
 	"rules": {
 		"semi": ["warn", "never"],
 		"quotes": ["error", "single"],
-		"indent": ["error", "tab"]
-	},
-	"extends": [
-		"eslint:recommended",
-		"plugin:@typescript-eslint/recommended"
-	]
+		"indent": ["error", "tab"],
+		"max-len": ["error", { "code": 120, "ignoreComments": true }],
+		"no-console": ["warn"]
+	}
 }
