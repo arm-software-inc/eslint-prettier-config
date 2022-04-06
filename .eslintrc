@@ -4,7 +4,7 @@
 		"@typescript-eslint"
   ],
 	"rules": {
-		"semi": ["warning", "never"],
+		"semi": ["warn", "never"],
 		"quotes": ["error", "single"],
 		"indent": ["error", "tab"]
 	},
