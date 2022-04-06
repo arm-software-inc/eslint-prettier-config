@@ -2,7 +2,6 @@
   "name": "eslint-prettier-husky",
   "version": "1.0.0",
   "description": "Eslint, prettier and husky config for MyOs",
-  "private": "false",
   "devDependencies": {},
   "scripts": {
     "start": "echo hello"
