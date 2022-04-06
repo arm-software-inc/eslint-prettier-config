@@ -1,0 +1,28 @@
+{
+  "name": "eslint-prettier-husky",
+  "version": "1.0.0",
+  "description": "Eslint, prettier and husky config for MyOs",
+  "private": "false",
+  "devDependencies": {},
+  "scripts": {
+    "start": "echo hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Centurion-Tech/eslint-prettier-husky.git"
+  },
+  "author": "ropoko (https://github.com/ropoko)",
+  "license": "ISC",
+  "homepage": "https://github.com/Centurion-Tech/eslint-prettier-husky#readme",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "husky"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.2"
+  }
+}
