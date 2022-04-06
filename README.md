@@ -19,4 +19,4 @@
 ## Missing (please help)
 - [ ] html format
 - [ ] max-len not working
-- [ ] prettier rules
+- [x] prettier rules
