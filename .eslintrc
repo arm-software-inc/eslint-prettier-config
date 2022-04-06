@@ -8,7 +8,7 @@
 	"extends": [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended",
-		"plugin:prettier/recommended"
+		"prettier"
 	],
 	"plugins": [
 		"@typescript-eslint",
@@ -16,6 +16,7 @@
 		"prettier"
   ],
 	"rules": {
+		"prettier/prettier": "error",
 		"quotes": ["error", "single"],
 		"indent": ["error", "tab"],
 		"max-len": ["error", { "code": 120, "ignoreComments": true, "ignoreTrailingComments": true }],

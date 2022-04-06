@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-myos",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "Eslint, prettier and husky config for MyOs",
   "scripts": {
     "start": "echo hello"
