@@ -16,7 +16,15 @@
 		"prettier"
   ],
 	"rules": {
-		"prettier/prettier": ["error", { "singleQuote": true, "parser": "flow", "useTabs": true, "tabWidth": 2, "semi": false }],
+		"prettier/prettier": [
+			"error", { 
+				"singleQuote": true, 
+				"parser": "babel-ts", 
+				"useTabs": true, 
+				"tabWidth": 2, 
+				"semi": true 
+			}
+		],
 		"indent": ["error", "tab"],
 		"max-len": ["error", { "code": 120, "ignoreComments": true, "ignoreTrailingComments": true }],
 		"no-console": ["warn"],
