@@ -1,9 +1,9 @@
 {
   "name": "eslint-config-myos",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "description": "Eslint, prettier and husky config for MyOs",
   "scripts": {
-    "start": "echo hello"
+    "start": "echo hello world"
   },
   "repository": {
     "type": "git",
@@ -18,19 +18,17 @@
     "husky"
   ],
   "dependencies": {
+		"eslint": ">= 8",
+    "prettier": "^2.6.2",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
+		"@typescript-eslint/parser": "^5.18.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.6.2"
+    "eslint-plugin-prettier": "^4.0.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= 5.18",
     "eslint": ">= 8",
-    "eslint-plugin-html": ">= 4",
-    "eslint-plugin-prettier": ">= 4"
-  },
-  "devDependencies": {
-    "@typescript-eslint/parser": "^5.18.0"
+		"@typescript-eslint/eslint-plugin": "^5.18.0",
+		"@typescript-eslint/parser": "^5.18.0"
   }
 }

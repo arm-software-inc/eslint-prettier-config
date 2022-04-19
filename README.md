@@ -1,6 +1,17 @@
 # MyOs-eslint-config
+
+## Usage
+`$ yarn add eslint-config-myos eslint typescript`
+
+Create a file .eslintrc in root:
+```json
+{
+	"extends": "myos"
+}
+```
+
 ## Rules
-- no semicolon
+- semicolon
 - new line in the end of the file
 - 3 equals (===)
 - single quotes
