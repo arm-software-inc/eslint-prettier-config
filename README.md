@@ -6,7 +6,7 @@
 Create a file .eslintrc in root:
 ```json
 {
-	"extends": "myos"
+  "extends": "myos"
 }
 ```
 
