@@ -6,7 +6,7 @@
 Create a file .eslintrc in root:
 ```json
 {
-	"extends": "myos"
+  "extends": "myos"
 }
 ```
 
@@ -31,3 +31,4 @@ Create a file .eslintrc in root:
 - [ ] html format
 - [ ] max-len not working
 - [x] prettier rules
+- [ ] husky
