@@ -1,4 +1,4 @@
-# MyOs-eslint-config
+# eslint-prettier-config
 
 ## Usage
 `$ yarn add eslint-config-myos eslint typescript`
